@@ -9,7 +9,7 @@ export default function App() {
         {
           backgroundColor: Platform.select({
             ios: "green",
-            android: "cyan",
+            android: "purple",
             web: "blue",
           }),
         },
@@ -21,8 +21,8 @@ export default function App() {
           {
             color: Platform.select({
               ios: "fuchsia",
-              android: "green",
-              web: "white",
+              android: "white",
+              web: "yellow",
             }),
           },
         ]}

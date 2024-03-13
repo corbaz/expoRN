@@ -100,3 +100,7 @@ npx expo --help
   For more info run a command with the --help flag
   
     $ npx expo start --help
+
+## Cloudflared
+
+cloudflared tunnel --url http://localhost:8081
