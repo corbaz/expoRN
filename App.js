@@ -20,9 +20,9 @@ export default function App() {
           styles.title,
           {
             color: Platform.select({
-              ios: "cyan",
+              ios: "fuchsia",
               android: "green",
-              web: "red",
+              web: "white",
             }),
           },
         ]}
