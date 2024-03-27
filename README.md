@@ -12,6 +12,7 @@ To run your project, navigate to the directory and run one of the following npm 
 
 ```bash
 - cd expoRN
+- npm start o npx expo start o yarn start o yarn expo start
 - npm run android
 - npm run ios
 - npm run web
@@ -101,6 +102,59 @@ npx expo --help
   
     $ npx expo start --help
 
+## Expo Snack - Emulador Online
+
+El código de React Native crea aplicaciones nativas multiplataforma con JavaScript y React.
+
+https://staging-snack.expo.dev/
+
 ## Cloudflared
 
 cloudflared tunnel --url http://localhost:8081
+
+## EAS-cli Expo Application Service
+
+```bash
+npm install -g eas-cli
+
+eas whoami  # Respuesta Not logged in o jcc
+
+eas login # Pide usuario y contraseña :jcc
+```
+
+```bash
+eas --help
+```
+
+```bash 
+eas build --platform ios --profile preview
+```
+----
+
+```bash
+eas build --platform android --profile preview
+```
+
+GITLAB:
+
+  • git clone <repository_url> clona un repositorio de GitLab en tu máquina local.
+
+    • <repository_url> es la URL del repositorio de GitLab que deseas clonar.
+
+
+  • Ejemplo 1:
+
+      ```shell
+      git clone https://gitlab.com/usuario/repo.git
+
+
+  • Ejemplo 2:
+
+      ```shell
+      git clone git@gitlab.com:usuario/repo.git
+
+
+  • Ejemplo 3:
+
+      ```shell
+      git clone https://usuario@gitlab.com/usuario/repo.git
