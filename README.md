@@ -1,6 +1,10 @@
 ```bash
 npx create-expo-app expoRN
-```
+
+o
+
+bunx create-expo-app expoRN
+
 
 ✔ Downloaded and extracted project files.
 

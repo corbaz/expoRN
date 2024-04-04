@@ -13,7 +13,6 @@ import {
     View,
 } from "react-native";
 import { Email } from "./components/Email";
-import Flat from "./components/Flat";
 import { TasksDB } from "./db/db";
 import { useState } from "react";
 
@@ -48,7 +47,7 @@ export default function App() {
                         </Text>
                         <Text
                             style={tw.style(
-                                "bg-indigo-500 hover:bg-indigo-700 text-white py-2 px-4 rounded inline-flex items-center my-8"
+                                "bg-indigo-500 hover:bg-indigo-700 text-white py-2 px-4 rounded items-center my-8"
                             )}
                         >
                             Hello
@@ -77,24 +76,28 @@ export default function App() {
                                     praesentium nihil.
                                 </Text>
                             </View>
-                            <View style={tw.style("flex-row px-6 pt-4 pb-2")}>
+                            <View
+                                style={tw.style(
+                                    "flex flex-row justify-evenly pt-4 pb-2"
+                                )}
+                            >
                                 <Text
                                     style={tw.style(
-                                        "inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
+                                        "bg-gray-200 rounded-2xl p-2 text-sm font-semibold text-gray-700"
                                     )}
                                 >
                                     #photographyText
                                 </Text>
                                 <Text
                                     style={tw.style(
-                                        "inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
+                                        "bg-gray-200 rounded-2xl p-2 text-sm font-semibold text-gray-700"
                                     )}
                                 >
                                     #travel
                                 </Text>
                                 <Text
                                     style={tw.style(
-                                        "inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
+                                        "bg-gray-200 rounded-2xl p-2 text-sm font-semibold text-gray-700"
                                     )}
                                 >
                                     #winter
