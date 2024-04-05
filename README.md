@@ -1,10 +1,29 @@
 ```bash
+# Crear proyecto
+# React Native 0.73.6 - Expo 50.0.14 - Node 18 - React 18.2 -Tailwind
 npx create-expo-app expoRN
 
 o
 
 bunx create-expo-app expoRN
 
+# Clonar
+git clone https://github.com/corbaz/expoRN.git
+
+# Crear repositorio
+git init
+
+git add .
+
+git commit -m "first commit"
+
+git branch -M main
+
+git remote add origin https://github.com/corbaz/expoRN.git
+
+git push -u origin main
+o
+git push --set-upstream origin main --force
 
 ✔ Downloaded and extracted project files.
 
