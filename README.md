@@ -7,6 +7,9 @@ o
 
 bunx create-expo-app expoRN
 
+# ATENCION node_modules/expo/AppEntry.js
+import App from '../../src/App';
+
 # Clonar
 git clone https://github.com/corbaz/expoRN.git
 

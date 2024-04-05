@@ -5,13 +5,13 @@ node_modules/
 
 # Gestor de paquetes
 # npm
-package-lock.json
+./package-lock.json
 # yarn
-yarn.lock
+./yarn.lock
 # pnpm
-pnpm-lock.yaml
+./pnpm-lock.yaml
 # nun Lock
-bun.lockb
+./bun.lockb
 
 # Expo
 .expo/

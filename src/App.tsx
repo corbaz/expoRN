@@ -43,7 +43,7 @@ export default function App() {
                                 ),
                             ]}
                         >
-                            Hello
+                            Hola
                         </Text>
                         <Text
                             style={tw.style(
