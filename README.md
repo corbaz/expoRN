@@ -56,6 +56,8 @@ npx expo install react-native-web react-dom @expo/metro-runtime
 lsof -i :8081
 
 kill 93928
+
+lsof -i tcp:3000
 ```
 
 ```typescript
@@ -142,6 +144,8 @@ cloudflared tunnel --url http://localhost:8081
 
 ```bash
 npm install -g eas-cli
+o
+bun install -g eas-cli
 
 eas whoami  # Respuesta Not logged in o jcc
 

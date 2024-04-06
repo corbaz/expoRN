@@ -12,6 +12,7 @@
     "pnpn-install": "pnpm install",
     "bun-install": "bun install",
     "start": "expo start",
+    "server": "cd backend && bun run index.ts",
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web"
