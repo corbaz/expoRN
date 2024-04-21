@@ -3,6 +3,9 @@
 # dependencies
 node_modules/
 
+/ios
+/android
+
 # Gestor de paquetes
 # npm
 ./package-lock.json

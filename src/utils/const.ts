@@ -15,6 +15,6 @@ export const Colores = {
 };
 
 export const Titulos = {
-    titleApp: " Tareas",
+    titleApp: " Tareas 2024",
     twTitleApp: tw`text-4xl font-bold text-blue-500`,
 }

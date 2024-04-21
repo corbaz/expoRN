@@ -1,3 +1,4 @@
+import { HOSTNAME, PORT } from '@/utils/const';
 import express from 'express';
 import moment from 'moment-timezone';
 
@@ -5,8 +6,8 @@ import moment from 'moment-timezone';
 const app = express();
 
 // define the hostname and port to listen on
-const HOSTNAME = "http://192.168.100.3";
-const PORT = 2736;
+// const hostname = HOSTNAME
+// const port = PORT;
 
 // middleware to allow CORS
 app.use((_, res, next) => {
@@ -39,7 +40,7 @@ const TasksDB = [
     {
         id: 3,
         title: "Tarea 3",
-        description: "Lilly: Padel Sábado 17:30 hs",
+        description: "Lilly: Padel Sábado 18:30 hs",
         completed: true,
         createdAt: moment().tz("America/Argentina/Buenos_Aires").format(),
         updatedAt: moment().tz("America/Argentina/Buenos_Aires").format()

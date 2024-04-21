@@ -1,4 +1,4 @@
-import { Task } from "../interface/interface";
+import { Task } from "../interfaces/types";
 
 export const TasksDB: Task[] = [
     {
@@ -9,7 +9,7 @@ export const TasksDB: Task[] = [
     },
     {
         id: 2,
-        title: "Tarea 2",   
+        title: "Tarea 2",
         description: "Colo: Partido Padel 17 hs",
         completed: true,
     },

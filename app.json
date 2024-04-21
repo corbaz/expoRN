@@ -2,6 +2,7 @@
   "expo": {
     "name": "expoTW",
     "slug": "expoTW",
+    "scheme": "myapp",
     "version": "1.0.0",
     "description": "Expo con Tailwind",
     "orientation": "portrait",
@@ -20,7 +21,6 @@
       "bundleIdentifier": "com.jcc.expoTW"
     },
     "android": {
-      "pemissions": [],
       "adaptiveIcon": {
         "foregroundImage": "./src/assets/adaptive-icon.png",
         "backgroundColor": "#ed0190"
@@ -34,6 +34,9 @@
       "eas": {
         "projectId": "8047c6c3-93c1-4312-85ef-12a64fa43dc9"
       }
-    }
+    },
+    "plugins": [
+      "expo-router"
+    ]
   }
 }
